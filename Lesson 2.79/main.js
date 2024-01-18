@@ -1,5 +1,5 @@
 
-let age = '42'
+let age = 42
 
 if(age >= 18) {
     console.log('Вы совершеннолетний')
@@ -8,6 +8,6 @@ if(age >= 18) {
 }
 
 
-let years = '16' 
+let years = 16 
 
 years >= 18? console.log('Вы совершеннолетний'): console.log('Вам еще нет 18')

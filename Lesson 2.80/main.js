@@ -1,13 +1,27 @@
-
-let age = '42'
-
-if(age >= 18) {
-    console.log('Вы совершеннолетний')
-} else{
-    console.log('Вам еще нет 18')
+for (let i=2; i<=12; i=i+2) {
+    console.log(i)
 }
 
 
-let years = '16' 
+let i=2
+while (i<=12) {
+    i=i+2
+    console.log(i)
+}
 
-years >= 18? console.log('Вы совершеннолетний'): console.log('Вам еще нет 18')
+
+
+
+
+
+
+for (let i=10; i>=1; i=i-1) {
+    console.log(i)
+}
+
+
+let i=11
+while (i>1) {
+    i=i-1
+    console.log(i)
+}

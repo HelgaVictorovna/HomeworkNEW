@@ -111,6 +111,7 @@ body {
 .paragraph {
     display: flex;
     align-items: center;
+    justify-content: center;    
     gap: 18px;
 }
 

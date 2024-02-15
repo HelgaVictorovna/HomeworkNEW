@@ -41,16 +41,12 @@ const users = [
     isAdmin: false
   }
 ]
-
-for (let i = 0; i <= users.length; i++) {
-  let notAdmin=0;
-  if (users.isAdmin === false) {
-    notAdmin = notAdmin + 1    
+let notAdmin = 0;
+for (let i = 0; i < users.length; i++) {
+  if (users[i].isAdmin === false) {
+    notAdmin = notAdmin + 1
   }
-  console.log(notAdmin)
-  
 }
-
-
+console.log(notAdmin)
 
 
